@@ -1,0 +1,32 @@
+ul#example {
+    list-style: none;
+    padding: inherit;
+    margin: 0px 20px;
+    margin-top: -20px;
+    display: block;
+    text-align: center;
+}
+
+ul#example li {
+    display: inline-block;
+}
+
+ul#example li span {
+    font-size: 35px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 15px;
+}
+
+ul#example li.seperator {
+    font-size: 20px;
+    line-height: 15px;
+    color: #000000;
+    vertical-align: top;
+}
+
+ul#example li p {
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+}

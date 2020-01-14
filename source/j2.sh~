@@ -1,0 +1,7 @@
+#! /bin/sh
+
+
+#/usr/bin/time -v bash j1.sh |& tee logg.txt
+
+g++ 1.cpp
+/usr/bin/time -v  ./a.out
